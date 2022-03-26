@@ -1,4 +1,4 @@
-p align="center">
+<p align="center">
   <a href="https://discord.gg/6BFrQQuGUG">
     <img src="https://i.ibb.co/8YdrfcS/Skripts.png" alt="Logo" width=72 height=72>
   </a>
