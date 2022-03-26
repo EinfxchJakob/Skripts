@@ -1,0 +1,11 @@
+# EinfxchJakob#8968
+# Title on Join
+
+
+on join:
+    play sound "entity.experience_orb.pickup" with volume 100 and pitch 5 to the player
+    send player title "&9&lHi!" with subtitle "&7have fun ^v^" for 5 seconds
+
+on first join:
+    play sound "entity.experience_orb.pickup" with volume 100 and pitch 5 to the player
+    send player title "&9&lHi!" with subtitle "&7have fun ^v^" for 5 seconds
