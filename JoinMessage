@@ -1,0 +1,8 @@
+# EinfxchJakob#8968
+# Join & Quit message
+
+on join:
+  set join message to "&8» &9&o%player% &7joined the game."
+
+on quit:
+  set quit message to "&8» &9&o%player% &7left the game."
