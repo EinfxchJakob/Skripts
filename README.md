@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://discord.gg/6BFrQQuGUG">
-    <img src="https://i.ibb.co/8YdrfcS/Skripts.png" alt="Logo" width=72 height=72>
+    <img src="https://i.ibb.co/ZxBNKkF/Skripts2.png" alt="Logo" width=72 height=72>
   </a>
 
   <h3 align="center">skripts</h3>
