@@ -1,0 +1,18 @@
+# EinfxchJakob#8968
+# fresh chatclear command
+
+command /cc [<text>]:
+	permission: system.team
+	permission message: &9&lSkript &8| &7You dont have enough permissions!
+	usage: &9&lSkript &8| &7Usage: &f&o/cc
+	aliases: /chatclear, /clearchat
+	trigger:
+		if arg is set:
+			loop 350 times:
+				broadcast "&8"
+			broadcast "&9&lSkript &8| &7Chat cleared by: &f&o%player%"
+      broadcast "&9&lSkript &8| &7Reason: &f&o%arg%"
+		else:
+			loop 350 times:
+				broadcast "&8"
+			broadcast "&9&lSkript &8| &7Chat cleared by: &f&o%player%"
