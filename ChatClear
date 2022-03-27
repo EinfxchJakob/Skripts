@@ -11,7 +11,7 @@ command /cc [<text>]:
 			loop 350 times:
 				broadcast "&8"
 			broadcast "&9&lSkript &8| &7Chat cleared by: &f&o%player%"
-      broadcast "&9&lSkript &8| &7Reason: &f&o%arg%"
+      			broadcast "&9&lSkript &8| &7Reason: &f&o%arg%"
 		else:
 			loop 350 times:
 				broadcast "&8"
