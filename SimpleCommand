@@ -8,12 +8,20 @@ command /command <text>:
 	permission: your.permission
 	aliases: /alias, /alias2
 	trigger:
-		send "§8§m            §r §9§lCOMMAND §8§m            "
-		send " "
-		send " §8▪ §7 here you"
-		send " §8▪ §7 can write"
-		send " §8▪ §7 some text"
-		send " "
-		send "§8§m            §r §9§lCOMMAND §8§m            "
+		if arg-1 is set:
+			send "§8§m            §r §9§lCOMMAND §8§m            "
+			send " "
+			send " §8▪ §7 %player%:"
+			send " §8▪ §7 %arg-1%"
+			send " "
+			send "§8§m            §r §9§lCOMMAND §8§m            "
+		else:
+			send "§8§m            §r §9§lCOMMAND §8§m            "
+			send " "
+			send " §8▪ §7 here you"
+			send " §8▪ §7 can write"
+			send " §8▪ §7 some text"
+			send " "
+			send "§8§m            §r §9§lCOMMAND §8§m            "
 		wait 1 second
 		broadcast "§9§lSkript §8⎥ §7§o%player% §7used /command"
