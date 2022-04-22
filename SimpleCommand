@@ -3,7 +3,9 @@
 
 
 
-command /command [text]:
+command /command <text>:
+	usage: This is an example message!
+	permission: your.permission
 	aliases: /alias, /alias2
 	trigger:
 		send "§8§m            §r §9§lCOMMAND §8§m            "
@@ -13,5 +15,5 @@ command /command [text]:
 		send " §8▪ §7 some text"
 		send " "
 		send "§8§m            §r §9§lCOMMAND §8§m            "
-    wait 1 second
-    broadcast "§9§lSkript §8⎥ §7§o%player% §7used /command"
+		wait 1 second
+		broadcast "§9§lSkript §8⎥ §7§o%player% §7used /command"
